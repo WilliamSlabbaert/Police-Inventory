@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Police_System.models
 {
-    public class Adres
+    public class Address
     {
         public string Street { get; set; }
         public string HouseNumber { get; set; }
