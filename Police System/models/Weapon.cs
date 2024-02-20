@@ -12,7 +12,7 @@ namespace Police_System.models
         public string Model { get; set; }
         public string Color { get; set; }
         public string SerialNumber { get; set; }
-        public DateTime yearOfManufacture { get; set; }
+        public DateTime YearOfManufacture { get; set; }
         public string AmmoType { get; set; }
         public int MagazineClipSize { get; set; }
     }

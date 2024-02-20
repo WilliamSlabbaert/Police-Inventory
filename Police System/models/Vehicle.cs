@@ -12,7 +12,7 @@ namespace Police_System.models
         public string Model { get; set; }
         public string Color { get; set; }
 
-        public DateTime yearOfManufacture { get; set; }
+        public DateTime YearOfManufacture { get; set; }
         public string FuelType { get; set; }
 
         public int AmountOfDistance { get; set; }
