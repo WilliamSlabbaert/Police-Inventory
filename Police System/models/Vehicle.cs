@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Police_System.enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Police_System.models
         public string Color { get; set; }
 
         public DateTime YearOfManufacture { get; set; }
-        public string FuelType { get; set; }
+        public FuelType FuelType { get; set; }
 
         public int AmountOfDistance { get; set; }
         public int LicensePlate { get; set; }

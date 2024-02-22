@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Police_System.enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Police_System.models
         public string Color { get; set; }
         public string SerialNumber { get; set; }
         public DateTime YearOfManufacture { get; set; }
-        public string AmmoType { get; set; }
+        public AmmoType AmmoType { get; set; }
         public int MagazineClipSize { get; set; }
     }
 }
