@@ -16,5 +16,6 @@ namespace Police_System.models
         public DateTime YearOfManufacture { get; set; }
         public AmmoType AmmoType { get; set; }
         public int MagazineClipSize { get; set; }
+        public bool IsOccupied { get; set; }
     }
 }

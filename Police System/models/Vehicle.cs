@@ -18,5 +18,7 @@ namespace Police_System.models
 
         public int AmountOfDistance { get; set; }
         public int LicensePlate { get; set; }
+
+        public bool IsOccupied { get; set; }
     }
 }
